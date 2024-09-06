@@ -25,6 +25,7 @@ let package = Package(
             name: "SNCollectionViewLayout",
             dependencies: [],
             path: "SNCollectionViewLayout",
+            exclude: ["Example", "screenshot", "SNCollectionViewLayout.podspec"],
             sources: ["Classes"]
         )
     ]
