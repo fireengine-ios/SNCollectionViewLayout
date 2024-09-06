@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import UIKit
 
 public protocol SNCollectionViewLayoutDelegate: AnyObject {
     func scaleForItem(inCollectionView collectionView: UICollectionView, withLayout layout: UICollectionViewLayout, atIndexPath indexPath: IndexPath) -> UInt
