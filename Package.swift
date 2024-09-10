@@ -27,5 +27,6 @@ let package = Package(
             path: "SNCollectionViewLayout",
             sources: ["Classes"]
         )
-    ]
+    ],
+    swiftLanguageVersions: [.v5]
 )
